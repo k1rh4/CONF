@@ -47,9 +47,13 @@ Plug 'thaerkh/vim-indentguides'
 " AutoComplPop
 
 Plugin 'AutoComplPop'
+Plugin 'vim-airline/vim-airline'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/syntastic'
+
+
 "Plugin 'https://github.com/Lokaltog/vim-powerline.git'
 Bundle 'https://github.com/Lokaltog/vim-powerline.git' 
-
 "set cursorcolumn
 
 "set listchars=space:·
@@ -58,17 +62,18 @@ Bundle 'https://github.com/Lokaltog/vim-powerline.git'
 "match WhiteSpaceMol / /
 "match WhiteSpaceBol /^ \+/
 
-set listchars=tab:→\ ,trail:∙,nbsp:•
-
-set list
 
 set cursorline
 set nu
 set smartindent
 set hlsearch
 set tabstop=4
-
+set shiftwidth=4
 language en_US.UTF-8
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
 
+set listchars=tab:→\ ,trail:∙,nbsp:•
+set list
+colo slate
+set bg=dark
