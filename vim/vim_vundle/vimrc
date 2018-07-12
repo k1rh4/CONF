@@ -28,3 +28,5 @@ set listchars=tab:→\ ,trail:∙,nbsp:•
 set list
 colo slate
 set bg=dark
+syntax on
+color desert
