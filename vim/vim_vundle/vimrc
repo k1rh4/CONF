@@ -9,7 +9,6 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 call vundle#end()            " required
 filetype plugin indent on    " required
-Plug 'thaerkh/vim-indentguides'
 Plugin 'AutoComplPop'
 Plugin 'vim-airline/vim-airline'
 Plugin 'airblade/vim-gitgutter'
