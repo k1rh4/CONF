@@ -7,8 +7,8 @@ sudo docker build --tag $NAME:1.0 ./
 PORT="-p 2222:22"
 
 SHARED=
-OPTION=" --rm "
-#OPTION="--rm  --cap-add=SYS_PTRACE --ulimit core=-1 --security-opt seccomp=unconfined "
+#OPTION=" --rm -v /Users/k1rh4/GIT/CONF/Docker_debug/MOUNT:/MOUNT"
+OPTION="--rm -v /Users/k1rh4/GIT/CONF/Docker_debug/MOUNT:/MOUNT  --cap-add=SYS_PTRACE --ulimit core=-1 --security-opt seccomp=unconfined "
 
 sudo docker run -idt --name $NAME $PORT $SHRED $OPTION $NAME:1.0 /bin/bash
 #sudo docker run -d --name $NAME $PORT $SHRED $OPTION $NAME:1.0 /bin/sh

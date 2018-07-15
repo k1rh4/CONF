@@ -8,6 +8,7 @@ RUN apt-get install -y git
 RUN apt-get install -y wget
 RUN apt-get install -y python
 RUN apt-get install -y vim
+RUN apt-get install gdb-multiarch
 
 
 RUN echo "root:debug" | chpasswd
@@ -33,5 +34,8 @@ RUN echo "set list" >> ~/.vimrc
 RUN echo "colo slate" >> ~/.vimrc 
 RUN echo "set bg=dark" >> ~/.vimrc
 
-
-
+###################### extra #####################
+RUN git clone https://github.com/ReFirmLabs/binwalk.git ~/binwalk
+CMD cd ~/binwalk
+#CMD python setup.py install
+#CMD ./deps.sh
