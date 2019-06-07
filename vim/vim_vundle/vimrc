@@ -20,13 +20,12 @@ set hlsearch
 language en_US.UTF-8
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
-set list
 colo slate
 set bg=dark
 syntax on
 color desert
 set backspace=indent,eol,start
 set expandtab
-set retab
 set tabstop=4
 set shiftwidth=4
+set colorcolumn=72
