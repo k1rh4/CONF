@@ -1,0 +1,6 @@
+alias E='explorer.exe .'
+alias F='find ./ -name "*"'
+alias C='cd /mnt/c/Users/samsung/Desktop/'
+export C=/mnt/c/Users/samsung/Desktop/
+alias python=/usr/bin/python2.7
+tmux
