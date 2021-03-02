@@ -28,4 +28,3 @@ set backspace=indent,eol,start
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set colorcolumn=72
