@@ -1,0 +1,15 @@
+Host keeplink
+	HostName keeplink.kr
+	User k1rh4
+	Port 22
+
+Host 144
+	HostName 144.syssec.kr
+	User k1rh4
+	Port 12345
+
+Host Local
+	HostName loaclhost
+	User k1rh4
+	Port 22
+	IdentityFile ~/.ssh/id_rsa.pub
