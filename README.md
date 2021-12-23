@@ -5,5 +5,6 @@
 - gdb-gef , pwngdb
 
 ## APT 
-- net-tools git wget curl python2.7 python3 tmux python3-pip build-essential tree vim ascii zsh openssh-server docker.io
+- net-tools git wget curl python2.7 python3 tmux python3-pip build-essential tree vim ascii zsh openssh-server docker.io 
+- ibsasl2-dev python-dev libssl-dev
 
