@@ -4,7 +4,7 @@ sudo docker kill $NAME
 sudo docker rm $NAME
 sudo docker build --tag $NAME:1.0 ./
 
-PORT="-p 53:53"
+PORT="-p 53:53 -p 53:53/udp"
 
 SHARED=
 OPTION="--rm -v `pwd`/MOUNT:/MOUNT"

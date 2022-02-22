@@ -6,5 +6,6 @@ $TTL	86400
 	1209600     ; Expire
 	86400 )   ; Negative Cache TTL
 @ IN NS ocalhost.
-@ IN A 192.168.0.6
-blog IN A 192.168.0.8
+@ IN A 192.168.0.25
+blog IN A 192.168.0.25
+www IN A 192.168.0.25
