@@ -5,7 +5,7 @@ $TTL	86400
 	14400     ; Retry
 	1209600     ; Expire
 	86400 )   ; Negative Cache TTL
-@ IN NS ocalhost.
+@ IN NS localhost.
 @ IN A 192.168.0.25
 blog IN A 192.168.0.25
 www IN A 192.168.0.25
